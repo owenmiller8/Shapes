@@ -3,6 +3,29 @@
     padding-bottom: 20px;
 }
 
+a {
+    color: #17BEBB !important;
+}
+
+.baby-powder {
+    background-color: #FFFFFA;
+}
+
+.tiffany-blue {
+    color: #17BEBB !important;
+}
+
+.outer-space {
+    background-color: #464655;
+}
+
+.coral {
+    background-color: coral !important;
+}
+
+.tea-green {
+    background-color: #D0F1BF;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
