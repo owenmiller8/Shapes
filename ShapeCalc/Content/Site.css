@@ -1,12 +1,36 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Nunito';
+    background-image: url("/Images/purple-shape-background.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-link-title {
+    font-family: 'Bungee Inline';
+    font-size: 40px;
+    padding-left: 2%;
+    margin-right: 10%;
+}
+
+.navbar-link {
+    font-size: 20px;
 }
 
 a {
     color: #17BEBB !important;
 }
 
+.background {
+    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
 .baby-powder {
     background-color: #FFFFFA;
 }
@@ -44,4 +68,13 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.shape-canvas {
+    background-color: #FFFFFA;
+}
+
+.navbar-button {
+    border-radius: 2px;
+    border-color: #17BEBB;
 }
