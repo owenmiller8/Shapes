@@ -1,5 +1,8 @@
-﻿body {
-    
+﻿html {
+    scroll-behaviour: smooth;
+}
+
+body {
     background-image: url("/Images/purple-shape-background.jpg") !important;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,16 +55,6 @@ h1 {
     cursor: pointer;
 }
 
-/*.scroll-button {
-    background-color: #17BEBB;
-    text-shadow: 3px;
-    height: 40px;
-    width: 100px;
-    font-size: medium;
-    border: none;
-    width: auto;
-}*/
-
 .background {
     padding: 0;
     margin: 0;
@@ -78,10 +71,9 @@ h1 {
     color: #17BEBB !important;
 }
 
-.outer-space {
+.navigation-bar {
     background-color: #464655;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 15px;
 }
 
 .coral {
