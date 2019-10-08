@@ -37,7 +37,7 @@ h1 {
 }
 
 .welcome-container {
-    background-color: rgba(70, 70, 85, 0.6) !important;
+    background-color: rgba(70, 70, 85, 0) !important;
     text-align: center;
     margin-top: 17%;
     padding-bottom: 20px;
@@ -72,8 +72,10 @@ h1 {
 }
 
 .navigation-bar {
-    background-color: #464655;
+    margin-top: 20px;
+    background-color: rgba(70,70,85,0.9);
     border-radius: 15px;
+    text-align: center;
 }
 
 .coral {
@@ -107,11 +109,7 @@ textarea {
     background-color: #FFFFFA;
 }
 
-.navbar-button {
-    border-radius: 2px;
-    border-color: #17BEBB;
-}
-
+/*Scroll button animation*/
 .scroll-button {
     color: rgba(255,255,255,1);
     -webkit-transition: all 0.5s;
